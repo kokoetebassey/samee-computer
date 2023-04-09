@@ -1,10 +1,12 @@
+@media only screen and ( min-width : 340px ) and ( max-width : 680px ) {
+
 .home_nav_flex{
     display: flex;
     width: 100%;
 }
 .nav_icon{
     margin-top: 20px;
-    margin-left: 17px;
+    margin-left: 10px;
     margin-right: 10px;
     mix-blend-mode: multiply;
 }
@@ -16,11 +18,11 @@
     background: darkgray;
     color: white;
 }
+.samee_red{
+    color: #961418;
+}
 .nav_text{
     margin-top: 15px;
-}
-.samee_red{
-    color: #d30a14;
 }
 .nav_text h3{
     color: #003399;
@@ -46,6 +48,7 @@ color: #003399;
     bottom: 56px;
     background: transparent;
     mix-blend-mode: multiply;
+    width: 100%;
 }
 .contact_head{
     width: 100%;
@@ -56,6 +59,7 @@ color: #003399;
     margin-bottom: 20px;
     position: absolute;
     bottom: -19px;
+    position: fixed;
 }
 .contact_input{
     width: 70%;
@@ -93,7 +97,7 @@ color: #003399;
 .nav_items{
     display: flex;
     margin-top: 25px;
-    margin-left: 38px;
+    margin-left: 32px;
     gap: 10px;
 }
 .check_item{
@@ -102,4 +106,7 @@ color: #003399;
 }
 .check_facebook{
     margin-top: 3px;
+}
+
+
 }

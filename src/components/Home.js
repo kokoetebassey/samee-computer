@@ -36,8 +36,9 @@ function Home() {
                     </NavLink>
                 </div>
                 <div className="check_facebook">
-                <img src={facebook} alt="facebook" width={23}/>
-
+                <NavLink to="https://www.facebook.com/profile.php?id=100008424194126">
+                    <img src={facebook} alt="facebook" width={23}/>
+                </NavLink>
                 </div>
             </div>
            

@@ -75,7 +75,7 @@ const Contact = () => {
       className="contact_head"
     >
       <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
+        variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className="get_touch" >Send us Email</p>
