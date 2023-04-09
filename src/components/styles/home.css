@@ -1,4 +1,4 @@
-@media only screen and ( min-width : 340px ) and ( max-width : 680px ) {
+/* @media only screen and ( min-width : 340px ) and ( max-width : 680px ) { */
 
 .home_nav_flex{
     display: flex;
@@ -111,4 +111,4 @@ color: #003399;
 }
 
 
-}
+/* } */
