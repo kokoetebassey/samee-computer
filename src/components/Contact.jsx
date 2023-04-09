@@ -87,6 +87,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your good name?"
               className='contact_input'
+              required
             />
           </label>
           <label className='flex flex-col'>
@@ -98,6 +99,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your email address?"
               className='contact_input'
+              required
             />
           </label>
           <label className='flex flex-col textera_input'>
@@ -109,6 +111,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder='What you want to say?'
               className='contact_input'
+              required
             />
           </label>
 
