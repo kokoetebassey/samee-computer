@@ -61,7 +61,7 @@ color: #003399;
     margin-bottom: 20px;
     position: absolute;
     bottom: -19px;
-    position: fixed;
+    /* position: fixed; */
     z-index: 11111;
 }
 .contact_input{
