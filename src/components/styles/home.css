@@ -1,4 +1,3 @@
-/* @media only screen and ( min-width : 340px ) and ( max-width : 680px ) { */
 
 .home_nav_flex{
     display: flex;
@@ -109,6 +108,8 @@ color: #003399;
 .check_facebook{
     margin-top: 3px;
 }
+
+/* @media only screen and ( min-width : 340px ) and ( max-width : 680px ) { */
 
 
 /* } */

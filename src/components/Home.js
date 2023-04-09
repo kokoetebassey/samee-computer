@@ -1,11 +1,12 @@
 import React from "react";
 import sameeIcon from "./images/sameeIcon.jpg"
 import "./styles/home.css"
-import laptop3 from "./images/laptop3.jpg"
+// import laptop3 from "./images/laptop3.jpg"
 import Contact from "./Contact";
 import whatsapp from "./images/watsap_logo.jpg"
 import facebook from "./images/fb_logo.png"
 import { NavLink } from "react-router-dom";
+import MySwiper from "./MySwipe";
 
 
 
@@ -44,12 +45,16 @@ function Home() {
            
         </div>
 
-        <div className="deals_in_head">
-            <h5>DEALS IN <br /><span>LAPTOPS | PHONES, ACCESSORIES & MORE</span></h5>
+        <div className="deals_in_head_heads">
+            <div className="deals_in_head">
+                <h5>DEALS IN <br /><span>LAPTOPS | PHONES, ACCESSORIES & MORE</span></h5>
+            </div>
+            <div className="deals_in_images">
+                <MySwiper />
+                {/* <img src={laptop3} alt="laptop3" width={300}/> */}
+            </div>
         </div>
-        <div className="deals_in_images">
-            <img src={laptop3} alt="laptop3" width={300}/>
-        </div>
+        
         <Contact />
     </div>
   );
