@@ -3,6 +3,7 @@
 .home_nav_flex{
     display: flex;
     width: 100%;
+    position: fixed;
 }
 .nav_icon{
     margin-top: 20px;
@@ -40,12 +41,13 @@ color: #003399;
     z-index: 1111;
     position: relative;
     width: 100%;
+    top: 82px;
 }
 .deals_in_images{
     justify-content: center;
     text-align: center;
     position: relative;
-    bottom: 56px;
+    bottom: -26px;
     background: transparent;
     mix-blend-mode: multiply;
     width: 100%;
@@ -60,7 +62,7 @@ color: #003399;
     position: absolute;
     bottom: -19px;
     position: fixed;
-    z-index: 1111;
+    z-index: 11111;
 }
 .contact_input{
     width: 70%;
