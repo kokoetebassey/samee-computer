@@ -53,6 +53,7 @@ function Home() {
                 <MySwiper />
                 {/* <img src={laptop3} alt="laptop3" width={300}/> */}
             </div>
+
         </div>
         
         <Contact />

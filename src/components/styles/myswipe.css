@@ -1,0 +1,98 @@
+.home-display-top{
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    gap: 10px;
+}
+.slot-line1-arrows-home-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    z-index: 10;
+    position: absolute;
+    top: 83px;
+    width: 100%;
+  }
+
+  .slot-arrow-left-home-top h3 {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: #003399;
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .slot-arrow-right-home-top h3 {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: #003399;
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+  }
+  .content-img-swipe {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .slot-line1-arrows-pro-top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 10px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    z-index: 10;
+    position: absolute;
+    top: -10px;
+    width: 100%;
+    right: 5px;
+  }
+
+  .slot-arrow-left-pro-top h3 {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: #003399;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .slot-arrow-right-pro-top h3 {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: #003399;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+}

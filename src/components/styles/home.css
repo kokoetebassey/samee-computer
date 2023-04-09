@@ -47,9 +47,8 @@ color: #003399;
     justify-content: center;
     text-align: center;
     position: relative;
-    bottom: -26px;
+    bottom: -25px;
     background: transparent;
-    /* mix-blend-mode: multiply; */
     width: 100%;
 }
 .contact_head{
@@ -59,7 +58,7 @@ color: #003399;
     color: white;
     text-align: center;
     position: relative;
-    bottom: -22px;
+    bottom: 25px;
     z-index: 11111;
 }
 .contact_input{
@@ -77,6 +76,9 @@ color: #003399;
 }
 .text-white{
     display: block;
+    margin-top: 10px;
+    position: relative;
+    top: 5px;
 }
 .contact_button{
     width: 40%;
@@ -107,6 +109,12 @@ color: #003399;
 }
 .check_facebook{
     margin-top: 3px;
+}
+.get_touch{
+    background: #44503194;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    box-shadow: -9px 9px 43px 12px #514c54;
 }
 
 /* @media only screen and ( min-width : 340px ) and ( max-width : 680px ) { */
