@@ -60,6 +60,7 @@ color: #003399;
     position: absolute;
     bottom: -19px;
     position: fixed;
+    z-index: 1111;
 }
 .contact_input{
     width: 70%;
