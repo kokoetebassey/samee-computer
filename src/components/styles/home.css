@@ -1,0 +1,105 @@
+.home_nav_flex{
+    display: flex;
+    width: 100%;
+}
+.nav_icon{
+    margin-top: 20px;
+    margin-left: 17px;
+    margin-right: 10px;
+    mix-blend-mode: multiply;
+}
+.home_header{
+    font-size: 13px;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: darkgray;
+    color: white;
+}
+.nav_text{
+    margin-top: 15px;
+}
+.samee_red{
+    color: #d30a14;
+}
+.nav_text h3{
+    color: #003399;
+}
+.nav_text h5{
+position: relative;
+bottom: 15px;
+color: #003399;
+
+}
+.deals_in_head{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1111;
+    position: relative;
+    width: 100%;
+}
+.deals_in_images{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    bottom: 56px;
+    background: transparent;
+    mix-blend-mode: multiply;
+}
+.contact_head{
+    width: 100%;
+    background: #002e89;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: -19px;
+}
+.contact_input{
+    width: 70%;
+    padding: 6px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: darkgray;
+    padding-left: 10px;
+    margin-top: 8px;
+}
+.flex-label{
+    display: block;
+}
+.text-white{
+    display: block;
+}
+.contact_button{
+    width: 40%;
+    padding: 6px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: green;
+    padding-left: 10px;
+    margin-top: 14px;
+    color: white;
+    margin-bottom: 22px;
+}
+.check_whatsap,
+.check_facebook{
+    mix-blend-mode: multiply;
+
+}
+.nav_items{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 38px;
+    gap: 10px;
+}
+.check_item{
+    position: relative;
+    bottom: 10px;
+}
+.check_facebook{
+    margin-top: 3px;
+}
