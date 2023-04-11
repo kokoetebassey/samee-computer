@@ -64,7 +64,7 @@ function Home() {
             </div>
             <div className="address">
                 <h4>Address:  34 Oron Road, Uyo AKS <br />Call:  09022188863, 09049019761</h4>   
-                <h4 className="copy_write">Copywrite &#169;2023</h4>
+                <h4 className="copy_write">Copywrite &#169; 2023</h4>
             </div>
         </div>
     </div>
