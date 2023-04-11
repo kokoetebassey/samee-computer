@@ -28,7 +28,7 @@ function Home() {
             <div className="nav_items">
                 <div className="check_item">
                     <h5>
-                    <NavLink to="/ProductPage" className="avl_items">Avl Items</NavLink>
+                    <NavLink to="/ProductPage" className="avl_items">Available Items</NavLink>
                     </h5>
                 </div>
                
