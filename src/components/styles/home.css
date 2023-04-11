@@ -4,6 +4,14 @@
     width: 100%;
     position: fixed;
 }
+.home_nav_flex {
+    display: flex;
+    width: 100%;
+    /* position: fixed; */
+    position: absolute;
+    TOP: -12PX;
+    /* z-index: 111111; */
+}
 .nav_icon{
     margin-top: 20px;
     margin-left: 10px;
@@ -12,10 +20,10 @@
 }
 .home_header{
     font-size: 13px;
-    width: 100%;
     height: 100vh;
     overflow: hidden;
-    /* position: fixed; */
+    width: 100%;
+    overflow-y: scroll;
 }
 .samee_red{
     color: #961418;
@@ -56,7 +64,7 @@ color: #003399;
     color: white;
     text-align: center;
     position: relative;
-    bottom: 25px;
+    bottom: -160px;
     z-index: 11111;
 }
 .contact_input{
@@ -97,9 +105,10 @@ color: #003399;
     gap: 10px;
 }
 .check_item{
+    display: flex;
     bottom: 10px;
     position: relative;
-    left: 77px;
+    gap: 10px;
 }
 .check_facebook{
     margin-top: 3px;
@@ -151,6 +160,11 @@ color: #003399;
 }
 .check_whatsap{
     mix-blend-mode: multiply;
+
+}
+
+.deals_in_head_heads{
+    margin-top: 85px;
 
 }
 /* @media only screen and ( min-width : 340px ) and ( max-width : 680px ) { */

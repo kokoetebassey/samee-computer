@@ -3,6 +3,9 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { NavLink } from "react-router-dom";
+import sameeIcon from "./images/sameeIcon.jpg"
+
 
 
 
@@ -64,6 +67,31 @@ const Contact = () => {
   };
 
   return (
+    <>
+    <div className="home_header">
+    <div className="home_nav_flex">
+    <div className="nav_icon">
+        <img src={sameeIcon} alt="sameeIcon" width={70}/>
+    </div>
+    <div className="nav_text">
+        <h3>SAMEE-<span className="samee_red">YON</span></h3>
+        <h5>GLOBAL COMPUTER <br /> ENTERPRICE</h5>
+    </div>
+    <div className="nav_items">
+        <div className="check_item">
+            <h5>
+            <NavLink to="/ProductPage" className="avl_items">Avl Items</NavLink>
+            </h5>
+            <h5>
+            <NavLink to="/Contact" className="avl_items">Email Us</NavLink>
+            </h5>
+        </div>
+       
+    </div>
+   
+</div>
+
+
     <div
       className="contact_head"
     >
@@ -131,6 +159,8 @@ const Contact = () => {
         {/* <EarthCanvas /> */}
       </motion.div>
     </div>
+    </div>
+    </>
   );
 };
 

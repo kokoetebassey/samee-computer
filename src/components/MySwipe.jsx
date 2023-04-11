@@ -13,22 +13,7 @@ import "./styles/myswipe.css"
 
 function MySwiper() {
     return (
-      // <Swiper
-      //   spaceBetween={30}
-      //   slidesPerView={3}
-      //   loop={true}
-      //   pagination={{ clickable: true }}
-      // >
-      //   <SwiperSlide>
-      //   <img src={laptop3} alt="laptop3" />
-      //   </SwiperSlide>
-      //   <SwiperSlide>
-      //   <img src={laptop3} alt="laptop3" />
-      //   </SwiperSlide>
-      //   <SwiperSlide>
-      //   <img src={laptop3} alt="laptop3" />
-      //   </SwiperSlide>
-      // </Swiper>
+
       <>
         <div className="slot-line1-arrows-home-top">
           <div className="slot-arrow-left-home-top">

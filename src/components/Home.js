@@ -2,7 +2,7 @@ import React from "react";
 import sameeIcon from "./images/sameeIcon.jpg"
 import "./styles/home.css"
 // import laptop3 from "./images/laptop3.jpg"
-import Contact from "./Contact";
+// import Contact from "./Contact";
 import whatsapp from "./images/watsap_logo.jpg"
 import facebook from "./images/fb_logo.png"
 import { NavLink } from "react-router-dom";
@@ -28,7 +28,10 @@ function Home() {
             <div className="nav_items">
                 <div className="check_item">
                     <h5>
-                    <NavLink to="/ProductPage" className="avl_items">Available Items</NavLink>
+                    <NavLink to="/ProductPage" className="avl_items">Avl Items</NavLink>
+                    </h5>
+                    <h5>
+                    <NavLink to="/Contact" className="avl_items">Email Us</NavLink>
                     </h5>
                 </div>
                
@@ -42,12 +45,12 @@ function Home() {
             </div>
             <div className="deals_in_images">
                 <MySwiper />
-                {/* <img src={laptop3} alt="laptop3" width={300}/> */}
+
             </div>
 
         </div>
         
-        <Contact />
+        {/* <Contact /> */}
         <div className="footer_header">
             <h3 className="uk_laptop">SAMEE-<span className="samee_red">YON</span> UK used Laptop & Phones</h3>
             <div className="uk_laptop_icons">
