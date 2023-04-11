@@ -28,19 +28,10 @@ function Home() {
             <div className="nav_items">
                 <div className="check_item">
                     <h5>
-                    <NavLink>Avl Items</NavLink>
+                    <NavLink to="/ProductPage" className="avl_items">Avl Items</NavLink>
                     </h5>
                 </div>
-                <div className="check_whatsap">
-                    <NavLink to="https://wa.me/c/2348140307577">
-                        <img src={whatsapp} alt="whatsapp" width={30}/>
-                    </NavLink>
-                </div>
-                <div className="check_facebook">
-                <NavLink to="https://www.facebook.com/profile.php?id=100008424194126">
-                    <img src={facebook} alt="facebook" width={23}/>
-                </NavLink>
-                </div>
+               
             </div>
            
         </div>
@@ -57,6 +48,25 @@ function Home() {
         </div>
         
         <Contact />
+        <div className="footer_header">
+            <h3 className="uk_laptop">SAMEE-<span className="samee_red">YON</span> UK used Laptop & Phones</h3>
+            <div className="uk_laptop_icons">
+                <div className="check_whatsap">
+                    <NavLink to="https://wa.me/c/2348140307577">
+                        <img className="check_whatsap" src={whatsapp} alt="whatsapp" width={30}/>
+                    </NavLink>
+                </div>
+                <div className="check_facebook">
+                <NavLink to="https://www.facebook.com/profile.php?id=100008424194126">
+                    <img src={facebook} alt="facebook" width={23}/>
+                </NavLink>
+                </div>
+            </div>
+            <div className="address">
+                <h4>Address:  34 Oron Road, Uyo AKS <br />Call:  09022188863, 09049019761</h4>   
+                <h4 className="copy_write">Copywrite &#169;2023</h4>
+            </div>
+        </div>
     </div>
   );
 }

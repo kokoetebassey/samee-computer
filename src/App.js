@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-// import MySwiper from "./components/MySwipe";
+import ProductPage from "./components/ProductPage";
 
 
 
@@ -12,7 +12,7 @@ function App() {
 
           <Routes>
             <Route path="/" element={<Home />}></Route>
-            {/* <Route path="MySwiper" element={<MySwiper/>}></Route> */}
+            <Route path="ProductPage" element={<ProductPage/>}></Route>
           </Routes>
     </div>
   );
