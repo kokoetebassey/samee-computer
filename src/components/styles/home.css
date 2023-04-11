@@ -97,8 +97,9 @@ color: #003399;
     gap: 10px;
 }
 .check_item{
-    position: relative;
     bottom: 10px;
+    position: relative;
+    left: 77px;
 }
 .check_facebook{
     margin-top: 3px;
