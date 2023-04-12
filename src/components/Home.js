@@ -5,6 +5,8 @@ import "./styles/home.css"
 // import Contact from "./Contact";
 import whatsapp from "./images/watsap_logo.jpg"
 import facebook from "./images/fb_logo.png"
+import linkedin from "./images/linkedin.png"
+import twitter from "./images/twitter.png"
 import { NavLink } from "react-router-dom";
 import MySwiper from "./MySwipe";
 
@@ -50,18 +52,28 @@ function Home() {
 
         </div>
         
-        {/* <Contact /> */}
+      
         <div className="footer_header">
             <h3 className="uk_laptop">SAMEE-<span className="samee_red">YON</span> UK used Laptop & Phones</h3>
             <div className="uk_laptop_icons">
                 <div className="check_whatsap">
                     <NavLink to="https://wa.me/c/2348140307577">
-                        <img className="check_whatsap" src={whatsapp} alt="whatsapp" width={30}/>
+                        <img className="check_whatsap" src={twitter} alt="whatsapp" width={23}/>
+                    </NavLink>
+                </div>
+                <div className="check_whatsap">
+                    <NavLink to="https://wa.me/c/2348140307577">
+                        <img className="check_whatsap" src={whatsapp} alt="whatsapp" width={23}/>
                     </NavLink>
                 </div>
                 <div className="check_facebook">
                 <NavLink to="https://www.facebook.com/profile.php?id=100008424194126">
                     <img src={facebook} alt="facebook" width={23}/>
+                </NavLink>
+                </div>
+                <div className="check_facebook">
+                <NavLink to="https://www.facebook.com/profile.php?id=100008424194126">
+                    <img src={linkedin} alt="facebook" width={23}/>
                 </NavLink>
                 </div>
             </div>
