@@ -113,35 +113,42 @@ color: #003399;
     margin-top: 3px;
 }
 .get_touch{
-    background: #001c5094;
-    padding: 10px;
+    background: blanchedalmond;
+    padding: 4px;
     border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     box-shadow: -9px 9px 43px 12px #514c54;
+    color: black;
+    position: relative;
+    bottom: 6px;
 }
 .avl_items{
-    background: blue;
+    background: #002f7b;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    padding: 3px;
+    padding: 4px;
     font-size: 12px;
 }
 .footer_header{
     width: 100%;
     background: black;
-    height: 184px;
+    height: 100px;
     position: absolute;
+    font-size: 11px;
     bottom: 0;
 }
 .uk_laptop{
     justify-content: center;
     text-align: center;
-    margin-top: 17px;
+    position: relative;
+    margin-top: 15px;
     color: #003399;
+    bottom: 10px;
 }
 .uk_laptop_icons{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 10px;
     z-index: 1111;
     position: relative;
@@ -151,11 +158,13 @@ color: #003399;
 }
 .address{
     margin: 14px;
+    position: relative;
+    bottom: 23px;
 }
 .copy_write{
     position: absolute;
     right: 19px;
-    bottom: -5px;
+    bottom: -12px;
 }
 .check_whatsap{
     mix-blend-mode: multiply;
@@ -164,6 +173,22 @@ color: #003399;
 .deals_in_head_heads{
     margin-top: 85px;
 
+}
+.contact_email{
+    position: fixed;
+    z-index: 12211;
+    top: -103px;
+    left: 87px;
+}
+.footer_addreess{
+    position: relative;
+    top: 8px;
+}
+.contact_back {
+    z-index: 10000;
+    margin-left: 84px;
+    position: relative;
+    font-size: 19px;
 }
 /* @media only screen and ( min-width : 340px ) and ( max-width : 680px ) { */
 

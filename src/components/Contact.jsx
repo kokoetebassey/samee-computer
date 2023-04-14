@@ -1,15 +1,26 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState} from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { NavLink } from "react-router-dom";
-import sameeIcon from "./images/sameeIcon.jpg"
+// import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
+
+
+
 
 
 
 
 const Contact = () => {
+  const [ contact, setContact ] = useState(true)
+
+
+  const handleOnClick = () => {
+      setContact(false)
+}
+
+
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -68,38 +79,17 @@ const Contact = () => {
 
   return (
     <>
-    <div className="home_header">
-    <div className="home_nav_flex">
-    <div className="nav_icon">
-        <img src={sameeIcon} alt="sameeIcon" width={70}/>
-    </div>
-    <div className="nav_text">
-        <h3>SAMEE-<span className="samee_red">YON</span></h3>
-        <h5>GLOBAL COMPUTER <br /> ENTERPRICE</h5>
-    </div>
-    <div className="nav_items">
-        <div className="check_item">
-            <h5>
-            <NavLink to="/ProductPage" className="avl_items">Avl Items</NavLink>
-            </h5>
-            <h5>
-            <NavLink to="/Contact" className="avl_items">Email Us</NavLink>
-            </h5>
-        </div>
-       
-    </div>
-   
-</div>
-
-
-    <div
+    {
+      contact &&  <div
       className="contact_head"
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <h3 className="get_touch" >Send us Email</h3>
+        <h3 className="get_touch" >Send us Email  <span onClick={handleOnClick} className="contact_back">x</span></h3>
+        
+        
 
         <form
           ref={formRef}
@@ -159,8 +149,8 @@ const Contact = () => {
         {/* <EarthCanvas /> */}
       </motion.div>
     </div>
-    </div>
-    </>
+    }
+</>
   );
 };
 

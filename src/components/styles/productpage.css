@@ -1,29 +1,47 @@
 .card {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blanchedalmond;
+  border-radius: 4px;
+  box-shadow: 0 17px 5px rgb(5 4 0 / 10%);
+  overflow: hidden;
+  max-width: 285px;
+  text-align: center;
+  background: blanchedalmond;
+  margin-left: 12%;
+  margin-top: 40px;
+  font-size: 13px;
   }
   
   .card img {
     width: 100%;
     height: auto;
   }
-  
-  .card-content {
-    padding: 16px;
+  .card_title{
+
   }
-  
-  .card-content h2 {
-    margin: 0;
-    font-size: 1.2rem;
+  .card_description{
+    /* position: relative;
+    bottom: 32px; */
   }
-  
-  .card-content p {
-    margin: 8px 0 0;
-    font-size: 1rem;
-    line-height: 1.5;
+  .card_header{
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 82px;
   }
+.card_price{
+  position: relative;
+  bottom: 32px;
+  margin-bottom: -43px;
+}
+.product_nav{
+  position: fixed;
+  z-index: 10000;
+  background: blanchedalmond;
+  height: 74px;
+}
+.footer_product{
+  position: fixed;
+    bottom: 0px;
+    z-index: 1000;
+}
