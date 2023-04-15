@@ -51,7 +51,7 @@ const ProductPage = () => {
         description="MacBook Pro - A high-end laptop designed and 
         manufactured by Apple, featuring a powerful processor, 
         stunning Retina display, and sleek design."
-        imageUrl={MacBook}
+        imageUrl={Acer}
       />
       <Card
         Price="#130,000.00"
@@ -93,7 +93,7 @@ const ProductPage = () => {
         title="Acer Swift 5"
         description="Acer Swift 5 - A lightweight and portable laptop with a long battery life, 
         featuring a powerful processor and sleek design."
-        imageUrl={Acer}
+        imageUrl={MacBook}
       />
       <Card
         Price="#130,000.00"

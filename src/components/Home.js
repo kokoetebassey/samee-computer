@@ -11,6 +11,7 @@ import Contact from "./Contact";
 
 
 
+
 function Home() {
     const [isOpen, setIsOpen] = useState(false);
     const modalRef = useRef(null);
@@ -67,12 +68,15 @@ function Home() {
                     </div>
                 )
          }
-        
-
 
         <div className="deals_in_head_heads">
             <div className="deals_in_head">
-                <h5>SAMEE-<span className="samee_red">YON</span> GLOBAL COMPUTER <br /> ENTERPRICE DEALS IN <br /><span>LAPTOPS | PHONES, ACCESSORIES & MORE</span></h5>
+                <h3>SAMEE-<span className="samee_red">YON</span> GLOBAL COMPUTER <br /> ENTERPRICE DEALS IN <br /><span>LAPTOPS | PHONES, ACCESSORIES & MORE</span></h3>
+            </div>
+
+
+            <div className="sales_sections">
+                <h4 className="sales_text">SALES & MAINTAINANCE OF LAPTOPS, ACCESSORIES, GADGETS, PHONES AND MORE</h4>
             </div>
             <div className="deals_in_images">
                 <MySwiper />

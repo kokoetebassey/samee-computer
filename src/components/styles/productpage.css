@@ -17,8 +17,8 @@
     width: 100%;
     height: auto;
   }
-  .card_title{
-
+  .card :hover{
+    box-shadow: 30px 0px 20px rgb(5 4 0 / 10%);
   }
   .card_description{
     /* position: relative;
@@ -27,7 +27,8 @@
   .card_header{
     flex-wrap: wrap;
     display: flex;
-    margin-top: 82px;
+    margin-top: 68px;
+    margin-bottom: 136px;
   }
 .card_price{
   position: relative;
@@ -44,4 +45,24 @@
   position: fixed;
     bottom: 0px;
     z-index: 1000;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.card:hover {
+  opacity: 1;
+}
+.card_img :hover {
+  background-color: red;
+  transform: rotate(45deg);
 }

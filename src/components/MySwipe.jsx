@@ -1,7 +1,12 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
-import laptop3 from "./images/laptop3.jpg"
+// import laptop3 from "./images/laptop3.jpg"
+import hpmouse from "./images/hp-mouse.jpg"
+import iphone1 from "./images/iphone1.jpg"
+import mouse1 from "./images/mouse1.jpg"
+import oppo1 from "./images/oppo1.jpg"
+import mouse2 from "./images/mouse2.jpg"
 import laptop4 from "./images/laptop4.jpeg"
 import laptop5 from "./images/laptop5.jpeg"
 import laptop6 from "./images/laptop6.jpeg"
@@ -56,10 +61,17 @@ function MySwiper() {
       modules={[Navigation]}
       className="mySwiper"
     >
-      <SwiperSlide>
+      {/* <SwiperSlide>
         <div className="home-display-top">
           <div className="home-display-top-images">
             <img src={laptop3} alt="laptop3" width={300}/>
+          </div>
+        </div>
+      </SwiperSlide> */}
+      <SwiperSlide>
+        <div className="home-display-top">
+          <div className="home-display-top-images">
+            <img src={hpmouse} alt="hpmouse" width={300}/>
           </div>
         </div>
       </SwiperSlide>
@@ -69,6 +81,7 @@ function MySwiper() {
             <img src={laptop4} alt="laptop4" width={300}/>
           </div>
         </div>
+        {/* <h1 className='swipe_text'>jkqegqwhdkwjqk</h1> */}
       </SwiperSlide>
       <SwiperSlide>
         <div className="home-display-top">
@@ -88,6 +101,13 @@ function MySwiper() {
         <div className="home-display-top">
           <div className="home-display-top-images">
             <img src={laptop7} alt="laptop7" width={300}/>
+          </div>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className="home-display-top">
+          <div className="home-display-top-images">
+            <img src={iphone1} alt="iphone1" width={150}/>
           </div>
         </div>
       </SwiperSlide>
@@ -115,6 +135,13 @@ function MySwiper() {
       <SwiperSlide>
         <div className="home-display-top">
           <div className="home-display-top-images">
+            <img src={mouse2} alt="mouse2" width={200}/>
+          </div>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className="home-display-top">
+          <div className="home-display-top-images">
             <img src={laptop11} alt="laptop11" width={300}/>
           </div>
         </div>
@@ -136,7 +163,21 @@ function MySwiper() {
       <SwiperSlide>
         <div className="home-display-top">
           <div className="home-display-top-images">
+            <img src={mouse1} alt="mouse1" width={250}/>
+          </div>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className="home-display-top">
+          <div className="home-display-top-images">
             <img src={laptop14} alt="laptop14" width={300}/>
+          </div>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className="home-display-top">
+          <div className="home-display-top-images">
+            <img src={oppo1} alt="oppo1" width={300}/>
           </div>
         </div>
       </SwiperSlide>
