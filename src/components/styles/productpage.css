@@ -21,16 +21,16 @@
     width: 100%;
     height: auto;
   }
-  .card:hover{
+  /* .card:hover{
     transform: translateX(-20px);
   }
   .card:hover ~ .card{
     top: 50px;
-  }
+  } */
   .card_header{
     flex-wrap: wrap;
     display: flex;
-    margin-top: -45px;
+    margin-top: 18px;
     margin-bottom: -120px;
   }
 .card_price{
