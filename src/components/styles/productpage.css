@@ -30,8 +30,8 @@
   .card_header{
     flex-wrap: wrap;
     display: flex;
-    margin-top: 68px;
-    margin-bottom: 21px;
+    margin-top: 67px;
+    margin-bottom: -120px;
   }
 .card_price{
   position: relative;
@@ -63,3 +63,14 @@
   background-color: red;
   transform: rotate(45deg);
 }
+.footer_product{
+  width: 100%;
+  background: black;
+  height: 100px;
+  position: relative;
+  font-size: 10px;
+  bottom: -134px;
+  z-index: 11111;
+}
+
+

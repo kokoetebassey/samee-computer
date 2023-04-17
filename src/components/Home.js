@@ -1,11 +1,11 @@
-import React, { useState, useEffect, useRef  } from "react";
+// import React, { useState, useEffect, useRef  } from "react";
 import sameeIcon from "./images/sameeIcon.jpg"
 import "./styles/home.css"
 import whatsapp from "./images/watsap_logo.jpg"
 import twitter from "./images/twitter.png"
 import { NavLink } from "react-router-dom";
 import MySwiper from "./MySwipe";
-import Contact from "./Contact";
+// import Contact from "./Contact";
 
 
 
@@ -13,21 +13,21 @@ import Contact from "./Contact";
 
 
 function Home() {
-    const [isOpen, setIsOpen] = useState(false);
-    const modalRef = useRef(null);
+    // const [isOpen, setIsOpen] = useState(false);
+    // const modalRef = useRef(null);
   
-    useEffect(() => {
-      function handleClickOutside(event) {
-        if (modalRef.current && !modalRef.current.contains(event.target)) {
-          setIsOpen(true);
-        }
-      }
+    // useEffect(() => {
+    //   function handleClickOutside(event) {
+    //     if (modalRef.current && !modalRef.current.contains(event.target)) {
+
+    //     }
+    //   }
   
-      document.addEventListener('click', handleClickOutside);
-      return () => {
-        document.removeEventListener('click', handleClickOutside);
-      };
-    }, [modalRef]);
+    //   document.addEventListener('click', handleClickOutside);
+    //   return () => {
+    //     document.removeEventListener('click', handleClickOutside);
+    //   };
+    // }, [modalRef]);
 
 
    
@@ -52,8 +52,8 @@ function Home() {
                     <h5>
                     <NavLink to="/ProductPage" className="avl_items">Avl Items</NavLink>
                     </h5>
-                    <h5 onClick={() => setIsOpen(true)}>
-                    <NavLink  className="avl_items">Email Us</NavLink>
+                    <h5 >
+                    <NavLink to="/contact" className="avl_items">Email Us</NavLink>
                     </h5>
                 </div>
                
@@ -61,13 +61,13 @@ function Home() {
            
         </div>
          
-         {
+         {/* {
                 isOpen && (
                     <div  className="contact_email">
                     <Contact />
                     </div>
                 )
-         }
+         } */}
 
         <div className="deals_in_head_heads">
             <div className="deals_in_head">
@@ -88,7 +88,7 @@ function Home() {
         </div>
         
       
-        <div className="footer_header footer_product">
+        <div className="footer_header ">
             <h3 className="uk_laptop"><span className="semmi_text">SAMEE</span><span className="samee_red">-YON</span> UK used Laptop & Phones</h3>
             {/* <div className="uk_laptop_icons">
                 <div className="check_whatsap">
