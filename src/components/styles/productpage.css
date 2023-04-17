@@ -30,7 +30,7 @@
   .card_header{
     flex-wrap: wrap;
     display: flex;
-    margin-top: 67px;
+    margin-top: -45px;
     margin-bottom: -120px;
   }
 .card_price{

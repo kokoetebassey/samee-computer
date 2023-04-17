@@ -1,19 +1,51 @@
-// import React, { useState, useEffect, useRef  } from "react";
+import React, { useState } from "react";
 import sameeIcon from "./images/sameeIcon.jpg"
 import "./styles/home.css"
 import whatsapp from "./images/watsap_logo.jpg"
 import twitter from "./images/twitter.png"
 import { NavLink } from "react-router-dom";
 import MySwiper from "./MySwipe";
-// import Contact from "./Contact";
+import Contact from "./Contact";
+import "./styles/productpage.css"
 
+
+
+import Card from './Card';
+import Dell_XPS from "./images/Dell_XPS.jpg"
+import Spectre from "./images/Spectre x360.jpg"
+import Lenovo from "./images/Lenovo.jpg"
+import Asus from "./images/Asus.jpg"
+import Microsoft from "./images/Microsoft.jpg"
+import Acer from "./images/Acer.jpg"
+import Razer from "./images/Razer.jpg"
+import LG from "./images/LG.jpg"
+import MSI from "./images/MSI.jpg"
+import Alienware from "./images/Alienware.jpg"
+import IdeaPad from "./images/IdeaPad.jpg"
+import HP_Envy from "./images/HP_Envy x360.jpg"
+import Acer_Nitro from "./images/Acer_Nitro.jpg"
+import Asus_Gaming from "./images/Asus_Gaming.jpg"
+import Pavilion_x360 from "./images/Pavilion_x360.jpg"
+import Dell_G5 from "./images/Dell_G5.jpg"
+import Lenovo_Legion from "./images/Lenovo_Legion.jpg"
+import MacBook from "./images/MacBook_Pro.jpg"
 
 
 
 
 
 function Home() {
-    // const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
+
+
+    function handleContact() {
+      if(!isOpen) {
+        setIsOpen(true)
+      }else{
+        setIsOpen(false)
+
+      }
+    }
     // const modalRef = useRef(null);
   
     // useEffect(() => {
@@ -50,10 +82,10 @@ function Home() {
             <div className="nav_items">
                 <div className="check_item">
                     <h5>
-                    <NavLink to="/ProductPage" className="avl_items">Avl Items</NavLink>
+                    {/* <NavLink to="/ProductPage" className="avl_items">Avl Items</NavLink> */}
                     </h5>
                     <h5 >
-                    <NavLink to="/contact" className="avl_items">Email Us</NavLink>
+                    <NavLink onClick={handleContact} className="avl_items">Email Us</NavLink>
                     </h5>
                 </div>
                
@@ -61,13 +93,13 @@ function Home() {
            
         </div>
          
-         {/* {
+         {
                 isOpen && (
                     <div  className="contact_email">
                     <Contact />
                     </div>
                 )
-         } */}
+         }
 
         <div className="deals_in_head_heads">
             <div className="deals_in_head">

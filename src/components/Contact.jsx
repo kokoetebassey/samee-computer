@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { NavLink } from "react-router-dom";
-import whatsapp from "./images/watsap_logo.jpg"
-import twitter from "./images/twitter.png"
-import sameeIcon from "./images/sameeIcon.jpg"
+// import { NavLink } from "react-router-dom";
+// import whatsapp from "./images/watsap_logo.jpg"
+// import twitter from "./images/twitter.png"
+// import sameeIcon from "./images/sameeIcon.jpg"
 
 
 
@@ -17,12 +17,12 @@ import sameeIcon from "./images/sameeIcon.jpg"
 
 
 const Contact = ({props}) => {
-  // const [ contact, setContact ] = useState(true)
+  const [ contact, setContact ] = useState(true)
 
 
   const History = (e) => {
     e.preventDefault();
-    window.history.back();
+    setContact(false)
   };
 
 
@@ -84,24 +84,12 @@ const Contact = ({props}) => {
 
   return (
     <>
-  <div className="home_nav_flex product_nav">
-        <div className="nav_icon">
-            <img src={sameeIcon} alt="sameeIcon" width={70}/>
-        </div>
-        <div className="nav_text">
-            <h3>SAMEE-<span className="samee_red">YON</span></h3>
-        </div>
-        <div className="nav_items">
-            <div className="check_item">
-                <h5>
-                <NavLink to="/ProductPage" className="avl_items">Avl Items</NavLink>
-                </h5>
-            </div>
-            
-        </div>
-        
-    </div>
-  <div
+  {/* {
+    navbar && 
+  } */}
+
+    {
+      contact &&  <div
       className="contact_head"
     >
       <motion.div
@@ -170,39 +158,25 @@ const Contact = ({props}) => {
 
       </motion.div>
     </div>
-
-
-    <div className="footer_header footer_product">
-            <h3 className="uk_laptop"><span className="semmi_text">SAMEE</span><span className="samee_red">-YON</span> UK used Laptop & Phones</h3>
-            {/* <div className="uk_laptop_icons">
-                <div className="check_whatsap">
-                    <NavLink to="https://wa.me/c/2348140307577">
-                        <img className="check_whatsap" src={twitter} alt="whatsapp" width={23}/>
-                    </NavLink>
-                </div>
-                <div className="check_whatsap">
-                    <NavLink to="https://wa.me/c/2348140307577">
-                        <img className="check_whatsap" src={whatsapp} alt="whatsapp" width={23}/>
-                    </NavLink>
-                </div>
-            </div> */}
-            <div className="address">
-                <h4 className="footer_addreess">Address:  34 Oron Road, Uyo AKS <br />Call:  09022188863, 09049019761</h4>   
-                <div className="uk_laptop_icons">
-                <div className="check_whatsap">
-                    <NavLink to="https://wa.me/c/2348140307577">
-                        <img className="check_whatsap" src={twitter} alt="whatsapp" width={23}/>
-                    </NavLink>
-                </div>
-                <div className="check_whatsap">
-                    <NavLink to="https://wa.me/c/2348140307577">
-                        <img className="check_whatsap" src={whatsapp} alt="whatsapp" width={23}/>
-                    </NavLink>
-                <h4 className="copy_write">Copywrite &#169; 2023</h4>
-                </div>
-            </div> 
-            </div>
+    }
+  {/* <div className="home_nav_flex product_nav">
+        <div className="nav_icon">
+            <img src={sameeIcon} alt="sameeIcon" width={70}/>
         </div>
+        <div className="nav_text">
+            <h3>SAMEE-<span className="samee_red">YON</span></h3>
+        </div>
+        <div className="nav_items">
+            <div className="check_item">
+                <h5>
+                <NavLink to="/ProductPage" className="avl_items">Avl Items</NavLink>
+                </h5>
+            </div>
+            
+        </div>
+        
+    </div> */}
+
 
 </>
   );
