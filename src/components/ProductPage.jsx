@@ -27,6 +27,7 @@ import Lenovo_Legion from "./images/Lenovo_Legion.jpg"
 
 
 
+
 const ProductPage = () => {
   return (
     <>
@@ -46,7 +47,7 @@ const ProductPage = () => {
 
     <div className="card_header">
       <Card
-        Price="#130,000.00"
+        Price="#769,000.00"
         title="MacBook Pro"
         description="MacBook Pro - A high-end laptop designed and 
         manufactured by Apple, featuring a powerful processor, 
@@ -54,49 +55,49 @@ const ProductPage = () => {
         imageUrl={Acer}
       />
       <Card
-        Price="#130,000.00"
+        Price="#835,000.00"
         title="Dell XPS 13"
         description="Dell XPS 13 - A popular ultrabook with a 
         thin and light design, powerful performance, and long battery life."
         imageUrl={Dell_XPS}
       />
       <Card
-        Price="#130,000.00"
+        Price="#1,320,800.00"
         title="HP Spectre x360"
         description="HP Spectre x360 - A 2-in-1 laptop with a flexible hinge that allows 
         it to be used as a tablet, featuring a slim and stylish design and powerful performance."
         imageUrl={Spectre}
       />
       <Card
-        Price="#130,000.00"
+        Price="#646,900.00"
         title="Lenovo ThinkPad X1 Carbon"
         description="Lenovo ThinkPad X1 Carbon - A business laptop with a durable and lightweight design, 
         long battery life, and powerful performance."
         imageUrl={Lenovo}
       />
       <Card
-        Price="#130,000.00"
+        Price="#521,500.00"
         title="Asus ZenBook UX425"
         description="Asus ZenBook UX425 - An ultrabook with a thin and light design, 
         featuring a long battery life and powerful performance"
         imageUrl={Asus}
       />
       <Card
-        Price="#130,000.00"
+        Price="#674,700.00"
         title="Microsoft Surface Laptop 4"
         description="Microsoft Surface Laptop 4 - A premium laptop with a slim design, 
         high-resolution display, and excellent performance."
-        imageUrl={Microsoft}
+        imageUrl={Microsoft}z
       />
       <Card
-        Price="#130,000.00"
+        Price="#517,500.00"
         title="Acer Swift 5"
         description="Acer Swift 5 - A lightweight and portable laptop with a long battery life, 
         featuring a powerful processor and sleek design."
         imageUrl={MacBook}
       />
       <Card
-        Price="#130,000.00"
+        Price="#415,000.00"
         title="Razer Blade Stealth 13"
         description="Razer Blade Stealth 13 - A gaming laptop with a sleek and portable design, 
         featuring a powerful graphics card and long battery life."
@@ -110,7 +111,7 @@ const ProductPage = () => {
         imageUrl={LG}
       />
       <Card
-        Price="#130,000.00"
+        Price="#1,320,800.00"
         title="MSI Prestige 14"
         description="MSI Prestige 14 - A high-performance laptop 
         designed for creative professionals, featuring a powerful graphics card and long battery life.
@@ -118,56 +119,56 @@ const ProductPage = () => {
         imageUrl={MSI}
       />
       <Card
-        Price="#130,000.00"
+        Price="#94,000.00"
         title="Alienware m15 R4"
         description="Alienware m15 R4 - A gaming laptop with a powerful processor and graphics card, 
         featuring a sleek and portable design."
         imageUrl={Alienware}
       />
       <Card
-        Price="#130,000.00"
+        Price="#384,999.00"
         title="Lenovo IdeaPad 5"
         description="Lenovo IdeaPad 5 - A budget laptop with a thin and light design, 
         featuring a long battery life and decent performance."
         imageUrl={IdeaPad}
       />
       <Card
-        Price="#130,000.00"
+        Price="#485,000.00"
         title="HP Envy x360"
         description="HP Envy x360 - A 2-in-1 laptop with a flexible hinge that allows it to be used as a tablet, 
         featuring a slim design and decent performance."
         imageUrl={HP_Envy}
       />
       <Card
-        Price="#130,000.00"
+        Price="#415,500.00"
         title="Acer Nitro 5"
         description="Acer Nitro 5 - A budget gaming laptop with a powerful graphics card, 
         featuring a sleek design and long battery life."
         imageUrl={Acer_Nitro}
       />
       <Card
-        Price="#130,000.00"
+        Price="#281,883.00"
         title="Asus TUF Gaming A15"
         description="Asus TUF Gaming A15 - A mid-range gaming laptop with a powerful graphics card and long battery life, 
         featuring a durable and rugged design."
         imageUrl={Asus_Gaming}
       />
       <Card
-        Price="#130,000.00"
+        Price="#495,500.00"
         title="HP Pavilion x360"
         description="HP Pavilion x360 - A budget 2-in-1 laptop with a flexible hinge that allows it to be used as a tablet, 
         featuring a decent performance and sleek design.."
         imageUrl={Pavilion_x360}
       />
       <Card
-        Price="#130,000.00"
+        Price="#450,000.00"
         title="Dell G5 15"
         description="Dell G5 15 - A mid-range gaming laptop with a powerful graphics card and decent performance, 
         featuring a sleek design and long battery life."
         imageUrl={Dell_G5}
       />
       <Card
-        Price="#130,000.00"
+        Price="#820,000.00"
         title="Lenovo Legion 5"
         description="Lenovo Legion 5 - A mid-range gaming laptop with a powerful graphics card and long battery life, 
         featuring a durable and rugged design."
@@ -175,8 +176,10 @@ const ProductPage = () => {
       />
     </div>
 
+
+
     <div className="footer_header footer_product">
-            <h3 className="uk_laptop">SAMEE-<span className="samee_red">YON</span> UK used Laptop & Phones</h3>
+            <h3 className="uk_laptop"><span className="semmi_text">SAMEE</span><span className="samee_red">-YON</span> UK used Laptop & Phones</h3>
             {/* <div className="uk_laptop_icons">
                 <div className="check_whatsap">
                     <NavLink to="https://wa.me/c/2348140307577">

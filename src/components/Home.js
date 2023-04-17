@@ -30,7 +30,7 @@ function Home() {
     }, [modalRef]);
 
 
-
+   
 
 
 
@@ -63,7 +63,7 @@ function Home() {
          
          {
                 isOpen && (
-                    <div ref={modalRef} className="contact_email">
+                    <div  className="contact_email">
                     <Contact />
                     </div>
                 )
@@ -71,7 +71,9 @@ function Home() {
 
         <div className="deals_in_head_heads">
             <div className="deals_in_head">
-                <h3>SAMEE-<span className="samee_red">YON</span> GLOBAL COMPUTER <br /> ENTERPRICE DEALS IN <br /><span>LAPTOPS | PHONES, ACCESSORIES & MORE</span></h3>
+                <h3><span className="semmi_text">SAMEE-</span>
+                <span className="samee_red">YON</span> GLOBAL COMPUTER <br /> ENTERPRICE DEALS IN <br />
+                <span>LAPTOPS | PHONES, ACCESSORIES & MORE</span></h3>
             </div>
 
 
@@ -87,7 +89,7 @@ function Home() {
         
       
         <div className="footer_header footer_product">
-            <h3 className="uk_laptop">SAMEE-<span className="samee_red">YON</span> UK used Laptop & Phones</h3>
+            <h3 className="uk_laptop"><span className="semmi_text">SAMEE</span><span className="samee_red">-YON</span> UK used Laptop & Phones</h3>
             {/* <div className="uk_laptop_icons">
                 <div className="check_whatsap">
                     <NavLink to="https://wa.me/c/2348140307577">

@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-// import { NavLink } from "react-router-dom";
-// import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+// import sameeIcon from "./images/sameeIcon.jpg"
 
 
 
@@ -12,13 +12,16 @@ import { slideIn } from "../utils/motion";
 
 
 
-const Contact = () => {
-  const [ contact, setContact ] = useState(true)
 
 
-  const handleOnClick = () => {
-      setContact(false)
-}
+const Contact = ({props}) => {
+  // const [ contact, setContact ] = useState(true)
+
+
+  const History = (e) => {
+    e.preventDefault();
+    window.history.back();
+  };
 
 
   const formRef = useRef();
@@ -79,15 +82,31 @@ const Contact = () => {
 
   return (
     <>
-    {
-      contact &&  <div
+  <div className="home_nav_flex product_nav">
+        <div className="nav_icon">
+            {/* <img src={sameeIcon} alt="sameeIcon" width={70}/> */}
+        </div>
+        <div className="nav_text">
+            <h3>SAMEE-<span className="samee_red">YON</span></h3>
+        </div>
+        <div className="nav_items">
+            <div className="check_item">
+                <h5>
+                <NavLink to="/ProductPage" className="avl_items">Avl Items</NavLink>
+                </h5>
+            </div>
+            
+        </div>
+        
+    </div>
+  <div
       className="contact_head"
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <h3 className="get_touch" >Send us Email  <span onClick={handleOnClick} className="contact_back">x</span></h3>
+        <h3 className="get_touch" >Send us Email  <span onClick={History} className="contact_back">x</span></h3>
         
         
 
@@ -146,10 +165,10 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
-        {/* <EarthCanvas /> */}
+
       </motion.div>
     </div>
-    }
+
 </>
   );
 };

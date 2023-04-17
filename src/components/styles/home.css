@@ -134,9 +134,9 @@ color: #003399;
     width: 100%;
     background: black;
     height: 100px;
-    position: absolute;
+    position: relative;
     font-size: 10px;
-    bottom: 0;
+    bottom: -15px;
 }
 .uk_laptop{
     justify-content: center;
@@ -144,7 +144,7 @@ color: #003399;
     position: relative;
     margin-top: 15px;
     /* color: #003399; */
-    bottom: 6px;
+    bottom: -9px;
 }
 .uk_laptop_icons{
     display: flex;
@@ -159,7 +159,7 @@ color: #003399;
 .address{
     margin: 14px;
     position: relative;
-    bottom: 14px;
+    bottom: 2px;
 }
 .copy_write{
     position: absolute;
@@ -207,8 +207,8 @@ color: #003399;
 .sales_text{
     padding: 5px;
 }
-.swipe_text{
-    
+.semmi_text {
+    color: blue;
 }
 /* @media only screen and ( min-width : 340px ) and ( max-width : 680px ) { */
 
